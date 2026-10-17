@@ -17,7 +17,7 @@ Analyze a customer call transcript (Markdown or plain text) and identify **up to
 Extract pain points only from statements attributable to customers. Interviewer questions, interpretations, and proposed solutions are not customer evidence unless explicitly confirmed by the customer. Do not infer customer roles from names alone.
 
 ## Customer context
-Identify the customer's role/persona (e.g., team lead, data engineer) and technical stack (e.g., DataStage, StreamSets, Airflow) **only when supported by the transcript**. Otherwise state `Not established in transcript`.
+Identify the customer's role/persona and technical environment **only when supported by the transcript**. Otherwise state `Not established in transcript`.
 
 ## Validation criteria
 A valid pain point reflects a concrete operational difficulty, such as:
