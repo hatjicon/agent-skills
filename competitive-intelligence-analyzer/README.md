@@ -1,33 +1,29 @@
 # Competitive Intelligence Analyzer
 
-An Agent Skill for monitoring **Bigeye, Monte Carlo, Acceldata, and Anomalo** and maintaining an evidence-based data observability competitive intelligence report.
+A reusable Agent Skill for **competitive research in any industry**. Supply any set of competitors and the skill produces an evidence-based intelligence report with actionable strategic insights.
 
 ## What it does
 
-- Tracks up to **10 recent product releases or highlighted features** per competitor, with dates and direct source links.
-- Summarizes the **5 latest official blog or LinkedIn posts** per competitor.
-- Analyzes **Reddit sentiment**, recurring praise and complaints, and emerging discussions, while flagging thin evidence.
-- Synthesizes each competitor's **product, content, and positioning strategy**.
-- Converts research into **actionable product management implications** and updates `competitors-status.md`.
+- Tracks recent **product, service, pricing, partnership, and other market developments**.
+- Summarizes the latest **official content and announcements**.
+- Analyzes **customer sentiment** using relevant public sources, including Reddit when appropriate.
+- Synthesizes **positioning, apparent strategy, strengths, weaknesses, and possible future moves**.
+- Identifies **competitive opportunities and customer discovery questions**.
+- Creates or updates a sourced `competitors-status.md` report.
 
-## Competitors and starting sources
+## Works across industries
 
-| Competitor | Source |
-| --- | --- |
-| Bigeye | [Blog](https://www.bigeye.com/blog) |
-| Monte Carlo | [Changelog](https://docs.getmontecarlo.com/changelog) |
-| Acceldata | [Documentation](https://docs.acceldata.io/) |
-| Anomalo | [Website](https://www.anomalo.com/) |
+Use it for SaaS, consumer apps, retail, financial services, healthcare, manufacturing, and more. **No competitors or industries are hard-coded.** The research sources and comparison criteria adapt to your market.
 
 ## Example prompt
 
-> Use the competitive-intelligence-analyzer skill to research Bigeye, Monte Carlo, Acceldata, and Anomalo. Update competitors-status.md with recent releases, blog posts, Reddit sentiment, and actionable competitive insights. Cite every source and flag missing evidence.
+> Use the competitive-intelligence-analyzer skill to compare [Competitor A], [Competitor B], and [Competitor C] in [industry]. Review their latest 10 product or business developments, 5 official posts, customer feedback from relevant communities, and apparent strategy. Update competitors-status.md with sources, uncertainties, and actionable recommendations.
 
 ## Files
 
-- [SKILL.md](SKILL.md) — full instructions and research quality requirements
-- [competitors-status.md](competitors-status.md) — report starter template; **not a completed research report**
+- [SKILL.md](SKILL.md) — full research workflow and quality requirements
+- [competitors-status.md](competitors-status.md) — reusable blank report template, not completed research
 
 ## Notes
 
-The skill requires access to current public sources. It does not treat an undated product highlight as a new release or infer Reddit sentiment when there is too little discussion.
+Current public-source access is required to execute the research. Missing evidence is labeled rather than fabricated.
