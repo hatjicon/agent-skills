@@ -1,18 +1,11 @@
 ---
 name: strategic-document-builder
-
 description: Builds strategic product documents using a structured narrative for executive summary, problem definition, evidence, competition, direction, business impact, success criteria, roadmap, and execution. Use when drafting product strategy docs, strategic initiatives, investment memos, opportunity narratives, or long-form documents similar to an asset-ingestion strategy paper.
 ---
 
+# Strategic Document Builder
 
-
-**# Strategic Document Builder**
-
-
-
-**## When to Use This Skill**
-
-
+## When to Use This Skill
 
 Use this skill when:
 
@@ -28,11 +21,7 @@ Use this skill when:
 
 - Building a reusable structure for initiative-level strategy docs
 
-
-
-**## What This Skill Produces**
-
-
+## What This Skill Produces
 
 This skill helps create a long-form strategic document with sections such as:
 
@@ -60,27 +49,15 @@ This skill helps create a long-form strategic document with sections such as:
 
 - Appendix
 
-
-
 The output is designed for strategic clarity, not only documentation completeness.
-
-
 
 ---
 
+## Core Principles
 
-
-**## Core Principles**
-
-
-
-**### 1. Lead with the strategic narrative**
-
-
+### 1. Lead with the strategic narrative
 
 A strong strategic document should answer this sequence clearly:
-
-
 
 1. What problem matters?
 
@@ -96,15 +73,9 @@ A strong strategic document should answer this sequence clearly:
 
 7. What must be true to execute?
 
-
-
 Use this flow to keep the document coherent from start to finish.
 
-
-
-**### 2. Distinguish problem, evidence, and solution**
-
-
+### 2. Distinguish problem, evidence, and solution
 
 Do not mix these layers:
 
@@ -116,15 +87,9 @@ Do not mix these layers:
 
 - ****Solution concepts:**** Candidate innovations or investments
 
-
-
 This prevents strategy docs from becoming feature lists.
 
-
-
-**### 3. Write for decision-making, not storytelling alone**
-
-
+### 3. Write for decision-making, not storytelling alone
 
 Every major section should help a decision-maker answer one of these:
 
@@ -140,11 +105,7 @@ Every major section should help a decision-maker answer one of these:
 
 - What outcomes justify the investment?
 
-
-
-**### 4. Balance customer value and business value**
-
-
+### 4. Balance customer value and business value
 
 The best strategic documents show both:
 
@@ -152,15 +113,9 @@ The best strategic documents show both:
 
 - ****Business value:**** revenue, retention, expansion, efficiency, migration, differentiation
 
-
-
 If one side is missing, the strategy is incomplete.
 
-
-
-**### 5. Use innovation framing carefully**
-
-
+### 5. Use innovation framing carefully
 
 When proposing innovations:
 
@@ -174,11 +129,7 @@ When proposing innovations:
 
 - Avoid pretending concepts are already validated if they are not
 
-
-
-**### 6. Make uncertainty visible**
-
-
+### 6. Make uncertainty visible
 
 For unvalidated sections, use explicit markers:
 
@@ -188,27 +139,15 @@ For unvalidated sections, use explicit markers:
 
 - ****LOW CONFIDENCE:**** when timing, scope, or delivery assumptions are uncertain
 
-
-
 Good strategy documents expose uncertainty instead of hiding it.
-
-
 
 ---
 
+## Canonical Document Structure
 
-
-**## Canonical Document Structure**
-
-
-
-**### 1. Executive Summary**
-
-
+### 1. Executive Summary
 
 ****Purpose:**** Give leaders the bottom line quickly.
-
-
 
 Include:
 
@@ -224,8 +163,6 @@ Include:
 
 - Key execution dependency or constraint
 
-
-
 ****Guidance:****
 
 - Keep this concise and high signal
@@ -234,19 +171,13 @@ Include:
 
 - Mention the core investment thesis in plain language
 
-
-
 ****Template:****
 
 ```markdown
 
-**## Executive Summary**
-
-
+## Executive Summary
 
 [Product/domain] is a critical area because [strategic reason].
-
-
 
 Today, customers struggle with:
 
@@ -256,11 +187,7 @@ Today, customers struggle with:
 
 - [challenge 3]
 
-
-
 This creates impact on [customer outcome] and limits [business outcome].
-
-
 
 We recommend focusing on [strategic direction], beginning with:
 
@@ -268,25 +195,15 @@ We recommend focusing on [strategic direction], beginning with:
 
 - [innovation/investment 2]
 
-
-
 If successful, this could improve [customer outcome] and create value through [business impact].
-
-
 
 Execution depends on [critical dependency, capability, or resourcing constraint].
 
 ```
 
-
-
-**### 2. Problem Definition**
-
-
+### 2. Problem Definition
 
 ****Purpose:**** Define the domain and the problems inside it.
-
-
 
 Break into:
 
@@ -300,8 +217,6 @@ Break into:
 
 - Strategic themes
 
-
-
 ****Guidance:****
 
 - Describe the system, workflow, or domain before jumping into pain points
@@ -310,23 +225,17 @@ Break into:
 
 - State why each theme matters
 
-
-
 ****Template:****
 
 ```markdown
 
-**## Problem Definition**
+## Problem Definition
 
-
-
-**### [Domain] landscape**
+### [Domain] landscape
 
 [Describe the workflow, domain components, and scope.]
 
-
-
-**### Customer challenges & opportunities**
+### Customer challenges & opportunities
 
 The most important challenges fall into these themes:
 
@@ -336,17 +245,13 @@ The most important challenges fall into these themes:
 
 3. [Theme]
 
-
-
-**#### Theme 1: [Name]**
+#### Theme 1: [Name]
 
 [Description]
 
 ****Impact:**** [business/customer impact]
 
-
-
-**#### Theme 2: [Name]**
+#### Theme 2: [Name]
 
 [Description]
 
@@ -354,15 +259,9 @@ The most important challenges fall into these themes:
 
 ```
 
-
-
-**### 3. Why Now**
-
-
+### 3. Why Now
 
 ****Purpose:**** Establish urgency.
-
-
 
 Use one or more of these lenses:
 
@@ -380,23 +279,17 @@ Use one or more of these lenses:
 
 - Strategic company goal alignment
 
-
-
 ****Guidance:****
 
 - This section should create urgency without hype
 
 - Use data if available, otherwise qualitative rationale
 
-
-
 ****Template:****
 
 ```markdown
 
-**## Why now**
-
-
+## Why now
 
 This area requires investment now because:
 
@@ -410,15 +303,9 @@ This area requires investment now because:
 
 ```
 
-
-
-**### 4. Evidence**
-
-
+### 4. Evidence
 
 ****Purpose:**** Prove the problem is real.
-
-
 
 Potential evidence sources:
 
@@ -438,8 +325,6 @@ Potential evidence sources:
 
 - Operational pain
 
-
-
 ****Guidance:****
 
 - Synthesize, do not dump raw notes
@@ -448,21 +333,15 @@ Potential evidence sources:
 
 - Use direct quotes only if high quality and attributable
 
-
-
 ****Template:****
 
 ```markdown
 
-**## Evidence**
-
-
+## Evidence
 
 The strongest signals supporting this strategy are:
 
-
-
-**### Theme: [Problem theme]**
+### Theme: [Problem theme]
 
 - [evidence point]
 
@@ -470,17 +349,13 @@ The strongest signals supporting this strategy are:
 
 - [evidence point]
 
-
-
-**### Metrics**
+### Metrics
 
 - [metric]
 
 - [metric]
 
-
-
-**### Customer examples**
+### Customer examples
 
 - [customer example]
 
@@ -488,15 +363,9 @@ The strongest signals supporting this strategy are:
 
 ```
 
-
-
-**### 5. Competitive Analysis**
-
-
+### 5. Competitive Analysis
 
 ****Purpose:**** Explain external context and differentiation pressure.
-
-
 
 Include:
 
@@ -508,25 +377,19 @@ Include:
 
 - Implications for strategic direction
 
-
-
 ****Guidance:****
 
 - Focus on competitive relevance, not exhaustive lists
 
 - Tie the competitor analysis back to your investment choices
 
-
-
 ****Template:****
 
 ```markdown
 
-**## Competitive Analysis**
+## Competitive Analysis
 
-
-
-**### Key trends**
+### Key trends
 
 - [trend]
 
@@ -534,9 +397,7 @@ Include:
 
 - [trend]
 
-
-
-**### Competitor comparison**
+### Competitor comparison
 
 We are:
 
@@ -546,21 +407,13 @@ We are:
 
 - ****Behind on:**** [area]
 
-
-
 This suggests we should invest in [capability/direction] to improve [strategic outcome].
 
 ```
 
-
-
-**### 6. Direction & Proposed Solutions**
-
-
+### 6. Direction & Proposed Solutions
 
 ****Purpose:**** Present the recommended strategic path.
-
-
 
 Structure this section in layers:
 
@@ -572,8 +425,6 @@ Structure this section in layers:
 
 4. Why these are the right bets
 
-
-
 ****Guidance:****
 
 - Separate strategic direction from detailed implementation
@@ -582,17 +433,13 @@ Structure this section in layers:
 
 - Explain both user value and platform implications
 
-
-
 ****Template:****
 
 ```markdown
 
-**## Direction & Proposed Solutions**
+## Direction & Proposed Solutions
 
-
-
-**### Considerations for future direction**
+### Considerations for future direction
 
 - [guiding principle]
 
@@ -600,17 +447,13 @@ Structure this section in layers:
 
 - [guiding principle]
 
-
-
-**### Existing solutions in flight**
+### Existing solutions in flight
 
 - [existing commitment]
 
 - [existing commitment]
 
-
-
-**### Innovation #1: [Name]**
+### Innovation #1: [Name]
 
 ****Problem addressed:**** [problem]
 
@@ -620,9 +463,7 @@ Structure this section in layers:
 
 ****Dependencies:**** [capabilities, APIs, teams, data]
 
-
-
-**### Innovation #2: [Name]**
+### Innovation #2: [Name]
 
 ****Problem addressed:**** [problem]
 
@@ -634,15 +475,9 @@ Structure this section in layers:
 
 ```
 
-
-
-**### 7. Out of Scope**
-
-
+### 7. Out of Scope
 
 ****Purpose:**** Clarify what this strategy is not trying to solve now.
-
-
 
 Use this section to:
 
@@ -654,15 +489,11 @@ Use this section to:
 
 - Reduce confusion with adjacent requests
 
-
-
 ****Template:****
 
 ```markdown
 
-**## Out of Scope**
-
-
+## Out of Scope
 
 This strategy does not currently include:
 
@@ -672,21 +503,13 @@ This strategy does not currently include:
 
 - [item]
 
-
-
 These may be revisited later, but are not required to validate the current strategic direction.
 
 ```
 
-
-
-**### 8. Business Value / Impact**
-
-
+### 8. Business Value / Impact
 
 ****Purpose:**** Connect the strategy to measurable business outcomes.
-
-
 
 Potential categories:
 
@@ -706,8 +529,6 @@ Potential categories:
 
 - Ecosystem or module adoption
 
-
-
 ****Guidance:****
 
 - Tie each impact category to the proposed direction
@@ -716,51 +537,35 @@ Potential categories:
 
 - If quantification is weak, state impact qualitatively and mark validation needs
 
-
-
 ****Template:****
 
 ```markdown
 
-**## Business Value / Impact**
+## Business Value / Impact
 
-
-
-**### New business**
+### New business
 
 [How this improves win rate, packaging, or competitiveness]
 
 ****DISCOVERY NEEDED:**** [if quantification is missing]
 
-
-
-**### Retention / customer sentiment**
+### Retention / customer sentiment
 
 [How this reduces friction, improves trust, or increases stickiness]
 
-
-
-**### Operational or migration impact**
+### Operational or migration impact
 
 [How this reduces effort, time, or cost]
 
-
-
-**### Ecosystem enablement**
+### Ecosystem enablement
 
 [How this unlocks value in other modules, workflows, or services]
 
 ```
 
-
-
-**### 9. Success Criteria**
-
-
+### 9. Success Criteria
 
 ****Purpose:**** Define how the strategy will be judged.
-
-
 
 Strong success metrics often cover:
 
@@ -780,15 +585,11 @@ Strong success metrics often cover:
 
 - Revenue or retention proxy
 
-
-
 ****Template:****
 
 ```markdown
 
-**## Success Criteria**
-
-
+## Success Criteria
 
 We will evaluate success through:
 
@@ -802,15 +603,9 @@ We will evaluate success through:
 
 ```
 
-
-
-**### 10. Roadmap**
-
-
+### 10. Roadmap
 
 ****Purpose:**** Translate strategy into phased movement.
-
-
 
 Roadmap framing options:
 
@@ -822,8 +617,6 @@ Roadmap framing options:
 
 - Capability milestones before customer-facing milestones
 
-
-
 ****Guidance:****
 
 - Show dependencies and confidence
@@ -832,17 +625,13 @@ Roadmap framing options:
 
 - Avoid false precision
 
-
-
 ****Template:****
 
 ```markdown
 
-**## Roadmap**
+## Roadmap
 
-
-
-**### Key enablers**
+### Key enablers
 
 - [foundational capability]
 
@@ -850,33 +639,25 @@ Roadmap framing options:
 
 - [foundational capability]
 
-
-
-**### Scenario 1: [Confidence level]**
+### Scenario 1: [Confidence level]
 
 ****Assumptions****
 
 - [assumption]
 
 - [assumption]
-
-
 
 ****Confidence rationale****
 
 - [reason]
 
-
-
-**### Scenario 2: [Confidence level]**
+### Scenario 2: [Confidence level]
 
 ****Assumptions****
 
 - [assumption]
 
 - [assumption]
-
-
 
 ****Confidence rationale****
 
@@ -884,15 +665,9 @@ Roadmap framing options:
 
 ```
 
-
-
-**### 11. Execution**
-
-
+### 11. Execution
 
 ****Purpose:**** Show what organizational or technical execution requires.
-
-
 
 Cover:
 - Team dependencies
@@ -907,15 +682,11 @@ Cover:
 
 - Sequencing risks
 
-
-
 ****Template:****
 
 ```markdown
 
-**## Execution**
-
-
+## Execution
 
 Successful delivery will require:
 
@@ -927,21 +698,13 @@ Successful delivery will require:
 
 - [resourcing or coordination need]
 
-
-
 ****LOW CONFIDENCE:**** [areas where execution planning is still immature]
 
 ```
 
-
-
-**### 12. Appendix**
-
-
+### 12. Appendix
 
 ****Purpose:**** Preserve source material without overwhelming the main narrative.
-
-
 
 Good appendix content:
 
@@ -955,23 +718,13 @@ Good appendix content:
 
 - Supporting screenshots or links
 
-
-
 ---
 
+## Strategic Framing Frameworks
 
-
-**## Strategic Framing Frameworks**
-
-
-
-**### Framework 1: Problem → Theme → Bet**
-
-
+### Framework 1: Problem → Theme → Bet
 
 Use this to prevent random solutioning.
-
-
 
 ****Flow:****
 
@@ -982,8 +735,6 @@ Use this to prevent random solutioning.
 3. Identify the strategic consequence of each theme
 
 4. Define the bet that addresses the theme
-
-
 
 ****Template:****
 
@@ -997,19 +748,13 @@ Problem signals:
 
 - [signal]
 
-
-
 Theme:
 
 - [common pattern]
 
-
-
 Strategic consequence:
 
 - [why this matters]
-
-
 
 Bet:
 
@@ -1017,11 +762,7 @@ Bet:
 
 ```
 
-
-
-**### Framework 2: Why now stack**
-
-
+### Framework 2: Why now stack
 
 Build urgency from multiple layers:
 
@@ -1035,15 +776,9 @@ Build urgency from multiple layers:
 
 - Capability readiness
 
-
-
 The more layers align, the stronger the case.
 
-
-
-**### Framework 3: Enablers vs experiences**
-
-
+### Framework 3: Enablers vs experiences
 
 Separate:
 
@@ -1051,15 +786,9 @@ Separate:
 
 - ****User-facing experiences:**** workflows, automation, staging, collaboration, recommendations
 
-
-
 This helps explain why strategy may require infrastructure investment before visible innovation.
 
-
-
-**### Framework 4: Strategic themes**
-
-
+### Framework 4: Strategic themes
 
 If the problem space is large, group the document around 3 themes:
 
@@ -1068,8 +797,6 @@ If the problem space is large, group the document around 3 themes:
 - Experience coherence / usability
 
 - Ecosystem integration / extensibility
-
-
 
 Other useful theme sets:
 
@@ -1085,199 +812,135 @@ Other useful theme sets:
 
 - Flexibility
 
-
-
 ---
 
+## Action Templates
 
-
-**## Action Templates**
-
-
-
-**### Template: Strategic Product Document**
-
-
+### Template: Strategic Product Document
 
 ```markdown
 
-**# [Product Area] Strategy Document**
+# [Product Area] Strategy Document
 
-
-
-**## Executive Summary**
+## Executive Summary
 
 [Bottom-line summary of the problem, direction, and value]
 
+## Problem Definition
 
-
-**## Problem Definition**
-
-**### [Domain] landscape**
+### [Domain] landscape
 
 [Describe domain and scope]
 
-
-
-**### Customer challenges & opportunities**
+### Customer challenges & opportunities
 
 [Top themes and why they matter]
 
-
-
-**## Why now**
+## Why now
 
 [Urgency and timing]
 
-
-
-**## Evidence**
+## Evidence
 
 [Evidence grouped by theme]
 
+## Competitive Analysis
 
-
-**## Competitive Analysis**
-
-**### Key trends**
+### Key trends
 
 [Trends]
 
-
-
-**### Competitor comparison**
+### Competitor comparison
 
 [Where we lead, lag, or are equal]
 
+## Direction & Proposed Solutions
 
-
-**## Direction & Proposed Solutions**
-
-**### Considerations for future direction**
+### Considerations for future direction
 
 [Guiding principles]
 
-
-
-**### Existing solutions in flight**
+### Existing solutions in flight
 
 [Current commitments]
 
-
-
-**### Innovation #1: [Name]**
+### Innovation #1: [Name]
 
 [Description]
 
-
-
-**### Innovation #2: [Name]**
+### Innovation #2: [Name]
 
 [Description]
 
-
-
-**## Out of Scope**
+## Out of Scope
 
 [What is excluded]
 
-
-
-**## Business Value / Impact**
+## Business Value / Impact
 
 [Business implications]
 
-
-
-**## Success Criteria**
+## Success Criteria
 
 [Metrics and outcomes]
 
+## Roadmap
 
-
-**## Roadmap**
-
-**### Key enablers**
+### Key enablers
 
 [Dependencies]
 
-
-
-**### Scenario planning**
+### Scenario planning
 
 [Phased confidence and assumptions]
 
-
-
-**## Execution**
+## Execution
 
 [Teams, sequencing, risks]
 
-
-
-**## Appendix**
+## Appendix
 
 [Detailed evidence and supporting material]
 
 ```
 
-
-
-**### Template: Strategic Bet Summary**
-
-
+### Template: Strategic Bet Summary
 
 ```markdown
 
-**# Strategic Bet: [Name]**
+# Strategic Bet: [Name]
 
-
-
-**## Problem**
+## Problem
 
 [What is broken or limited today]
 
-
-
-**## Why now**
+## Why now
 
 [Why investment is timely]
 
-
-
-**## Bet**
+## Bet
 
 [What we believe we should invest in]
 
-
-
-**## Customer value**
+## Customer value
 
 [Why customers will care]
 
-
-
-**## Business value**
+## Business value
 
 [Why the business should invest]
 
-
-
-**## Dependencies**
+## Dependencies
 
 [Capabilities, teams, data, platforms]
 
-
-
-**## Risks**
+## Risks
 
 - [risk]
 
 - [risk]
 
-
-
-**## Success criteria**
+## Success criteria
 
 - [metric]
 
@@ -1285,17 +948,11 @@ Other useful theme sets:
 
 ```
 
-
-
 ---
 
+## Writing Guidance
 
-
-**## Writing Guidance**
-
-
-
-**### Do**
+### Do
 
 - Start with the problem
 
@@ -1311,9 +968,7 @@ Other useful theme sets:
 
 - Use headings, bullets, and short paragraphs for scanability
 
-
-
-**### Avoid**
+### Avoid
 
 - Writing a feature spec instead of a strategy doc
 
@@ -1329,19 +984,11 @@ Other useful theme sets:
 
 - Overloading the executive summary with detail
 
-
-
 ---
 
+## Quality Checklist
 
-
-**## Quality Checklist**
-
-
-
-**### 🎯 Strategic Document Checklist**
-
-
+### 🎯 Strategic Document Checklist
 
 ****Narrative quality****
 
@@ -1357,8 +1004,6 @@ Other useful theme sets:
 
 - [ ] Success criteria are defined
 
-
-
 ****Strategic rigor****
 
 - [ ] Themes are synthesized, not scattered
@@ -1372,8 +1017,6 @@ Other useful theme sets:
 - [ ] Confidence levels are explicit
 
 - [ ] Execution constraints are acknowledged
-
-
 
 ****Writing quality****
 
@@ -1389,15 +1032,9 @@ Other useful theme sets:
 
 - [ ] Gaps are clearly marked
 
-
-
 ---
 
-
-
-**## Example Prompts This Skill Should Handle**
-
-
+## Example Prompts This Skill Should Handle
 
 - "Draft a strategic product document for our ingestion experience"
 
@@ -1409,15 +1046,9 @@ Other useful theme sets:
 
 - "Build a strategy narrative from research, competition, and proposed innovations"
 
-
-
 ---
 
-
-
-**## Related Skills**
-
-
+## Related Skills
 
 - ****strategy-frameworks**** - For where-to-play and how-to-win choices
 
@@ -1429,27 +1060,17 @@ Other useful theme sets:
 
 - ****governing-docs**** - For IBM PDLC artifacts like OpAs, PR-FAQs, and epics
 
-
-
 ---
 
-
-
-**## Key Quotes**
-
-
+## Key Quotes
 
 ****On strategy documents:****
 
 > "A strong strategy document does not just describe a domain. It makes the case for change."
 
-
-
 ****On evidence-based direction:****
 
 > "The recommendation should feel earned by the evidence, not detached from it."
-
-
 
 ****On focus:****
 
