@@ -1,10 +1,12 @@
-# Data Observability Competitive Intelligence
+# Competitive Intelligence Report
 
 **Status:** Research not yet performed  
 **Last researched:** Not yet  
-**Competitors:** Bigeye, Monte Carlo, Acceldata, Anomalo
+**Industry / market:** To be provided  
+**Coverage window:** To be determined  
+**Competitors:** To be provided
 
-> This is a report template, not a completed analysis. Run the Competitive Intelligence Analyzer skill with web access to populate sourced findings.
+> Reusable report template. Run the Competitive Intelligence Analyzer skill with your competitor list and research scope to populate verified findings.
 
 ## Executive summary
 
@@ -14,23 +16,23 @@ Pending research.
 
 Pending research.
 
-## Bigeye
+## [Competitor name]
 
-### Latest 10 product features
+### Latest product and business developments
 
-| Feature | Description | Date | Evidence type | Source |
+| Development | Description | Date | Status | Source |
 | --- | --- | --- | --- | --- |
 
-### Latest 5 official posts
+### Latest official content
 
 | Title | Author | Date | Channel | Summary | URL |
 | --- | --- | --- | --- | --- | --- |
 
-### Reddit sentiment
+### Customer/user sentiment
 
 **Assessment:** Not yet researched.
 
-**Evidence base:** Not yet researched.
+**Evidence base and channels:** Not yet researched.
 
 **Positive themes:** Pending research.
 
@@ -38,47 +40,11 @@ Pending research.
 
 **Emerging topics:** Pending research.
 
-### Apparent strategy (150–250 words)
+### Apparent strategy
 
 Pending research.
 
-### Product management implications
-
-Pending research.
-
-### Gaps and confidence
-
-Pending research.
-
-## Monte Carlo
-
-### Latest 10 product features
-
-| Feature | Description | Date | Evidence type | Source |
-| --- | --- | --- | --- | --- |
-
-### Latest 5 official posts
-
-| Title | Author | Date | Channel | Summary | URL |
-| --- | --- | --- | --- | --- | --- |
-
-### Reddit sentiment
-
-**Assessment:** Not yet researched.
-
-**Evidence base:** Not yet researched.
-
-**Positive themes:** Pending research.
-
-**Negative themes:** Pending research.
-
-**Emerging topics:** Pending research.
-
-### Apparent strategy (150–250 words)
-
-Pending research.
-
-### Product management implications
+### Strategic implications
 
 Pending research.
 
@@ -86,77 +52,7 @@ Pending research.
 
 Pending research.
 
-## Acceldata
-
-### Latest 10 product features
-
-| Feature | Description | Date | Evidence type | Source |
-| --- | --- | --- | --- | --- |
-
-### Latest 5 official posts
-
-| Title | Author | Date | Channel | Summary | URL |
-| --- | --- | --- | --- | --- | --- |
-
-### Reddit sentiment
-
-**Assessment:** Not yet researched.
-
-**Evidence base:** Not yet researched.
-
-**Positive themes:** Pending research.
-
-**Negative themes:** Pending research.
-
-**Emerging topics:** Pending research.
-
-### Apparent strategy (150–250 words)
-
-Pending research.
-
-### Product management implications
-
-Pending research.
-
-### Gaps and confidence
-
-Pending research.
-
-## Anomalo
-
-### Latest 10 product features
-
-| Feature | Description | Date | Evidence type | Source |
-| --- | --- | --- | --- | --- |
-
-### Latest 5 official posts
-
-| Title | Author | Date | Channel | Summary | URL |
-| --- | --- | --- | --- | --- | --- |
-
-### Reddit sentiment
-
-**Assessment:** Not yet researched.
-
-**Evidence base:** Not yet researched.
-
-**Positive themes:** Pending research.
-
-**Negative themes:** Pending research.
-
-**Emerging topics:** Pending research.
-
-### Apparent strategy (150–250 words)
-
-Pending research.
-
-### Product management implications
-
-Pending research.
-
-### Gaps and confidence
-
-Pending research.
+> Duplicate the competitor section for each company being researched.
 
 ## Sources and methodology
 
@@ -164,4 +60,4 @@ Pending research.
 
 ## Changes since previous update
 
-Initial template created; no competitor findings yet.
+Initial industry-neutral template created; no findings yet.
