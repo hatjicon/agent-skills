@@ -21,7 +21,6 @@ Use it for SaaS, consumer apps, retail, financial services, healthcare, manufact
 ## Files
 
 - [SKILL.md](SKILL.md) — full research workflow and quality requirements
-- [competitors-status.md](competitors-status.md) — reusable blank report template, not completed research
 
 ## Notes
 
