@@ -16,7 +16,6 @@ Accept whatever the user provides, including:
 - **Industry and market context:** optional; infer cautiously from supplied sources and verify
 - **Research goals:** product positioning, capabilities, pricing, distribution, partnerships, customer sentiment, etc.
 - **Sentiment sources/search terms:** optional Reddit queries, review sites, forums, social communities, or other appropriate public channels
-- **Output path:** default `competitors-status.md`, or a user-specified file
 - **Time horizon and counts:** default 90-day lookback, up to 10 latest product developments and 5 latest official posts per competitor; user overrides take precedence
 
 If competitor names or websites are provided, use them directly; do not replace them with a fixed competitor list. If no competitors are supplied, identify relevant candidates only if the user requests discovery; otherwise ask for the essential competitor/market scope.
