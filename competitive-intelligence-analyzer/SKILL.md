@@ -1,130 +1,130 @@
 ---
 name: competitive-intelligence-analyzer
-description: Research data observability competitors' latest product releases, official content, and Reddit sentiment; maintain a sourced competitors-status.md intelligence report.
+description: Research any competitors in any industry, track recent product developments and content, assess customer sentiment, and maintain a sourced competitive intelligence report.
 ---
 
 # Competitive Intelligence Analyzer
 
-## Goal
+## Purpose
 
-Perform comprehensive, current competitive intelligence for the following data observability vendors and update `competitors-status.md` with actionable findings for product management.
+Build an evidence-based, actionable competitive intelligence report for **any industry, market, product, service, or competitor set**. Never assume a particular sector or hard-code vendors.
 
-| Competitor | Starting source |
-| --- | --- |
-| Bigeye | https://www.bigeye.com/blog |
-| Monte Carlo | https://docs.getmontecarlo.com/changelog |
-| Acceldata | https://docs.acceldata.io/ |
-| Anomalo | https://www.anomalo.com/ |
+## Inputs
 
-Treat these URLs as starting points, not the only permitted sources. Locate each vendor's official release notes, product updates, blog, newsroom, and LinkedIn posts as appropriate. Search Reddit separately for each company and product, including alternative spellings (e.g., "Monte Carlo" + "data observability", "Acceldata", "Bigeye data", "Anomalo"). Exclude unrelated uses of ambiguous terms.
+Accept whatever the user provides, including:
+- **Competitors:** names, product names, websites, documentation, release notes, blogs, social profiles
+- **Industry and market context:** optional; infer cautiously from supplied sources and verify
+- **Research goals:** product positioning, capabilities, pricing, distribution, partnerships, customer sentiment, etc.
+- **Sentiment sources/search terms:** optional Reddit queries, review sites, forums, social communities, or other appropriate public channels
+- **Output path:** default `competitors-status.md`, or a user-specified file
+- **Time horizon and counts:** default 90-day lookback, up to 10 latest product developments and 5 latest official posts per competitor; user overrides take precedence
 
-## Research requirements
+If competitor names or websites are provided, use them directly; do not replace them with a fixed competitor list. If no competitors are supplied, identify relevant candidates only if the user requests discovery; otherwise ask for the essential competitor/market scope.
 
-### 1. Ten latest released or highlighted features per competitor
+## Research methodology
 
-Find the **10 most recent verifiable** product releases or prominently highlighted features, prioritizing release notes and dated announcements over undated marketing pages. For each record include:
+### 1. Recent product and business developments (default: 10 per competitor)
 
-- **Feature name**
-- **Description:** what it does and who benefits
-- **Release/announcement date:** ISO date if available; otherwise `Not disclosed`
-- **Source URL:** direct feature announcement, documentation, or release note
-- **Evidence type:** Released / Announced / Highlighted (not necessarily new)
+Use the most appropriate primary sources: official release notes, changelogs, documentation, product pages, app store updates, newsroom, filings, press releases, and launch posts. Depending on industry, developments may be **features, products, services, pricing changes, integrations, partnerships, geographic launches, or business-model changes**.
 
-Sort by confirmed date descending, with undated highlights last. Do not describe an undated highlighted capability as a new release. If fewer than 10 verifiable items exist, list only those found and explicitly state the gap. Do not invent feature names, dates, or URLs.
+For each development capture:
+- **Name**
+- **Description:** what changed and why it matters to customers
+- **Date:** verified release/announcement date or `Not disclosed`
+- **Status:** Released / Announced / Highlighted (not necessarily new)
+- **Direct source URL**
 
-### 2. Five latest official posts per competitor
+Sort confirmed dates newest first; undated highlights last. Never label an evergreen capability a recent release. If fewer than the requested number are verifiable, report the actual number and evidence gap. Do not fabricate.
 
-Find the **5 most recent** posts on the official blog, or official LinkedIn page when blog coverage is absent or stale. Include:
+### 2. Recent official content (default: 5 posts per competitor)
 
+Find the most recent substantive content from official blogs, newsrooms, LinkedIn pages, video channels, or industry-appropriate owned channels. Capture:
 - **Title**
-- **Author:** if named, else `Not listed`
-- **Publication date:** ISO date if available, else `Not disclosed`
-- **Summary:** 2–3 sentences on the message and takeaways
-- **URL:** direct link to the post
-- **Channel:** Blog / LinkedIn
+- **Author:** named author or `Not listed`
+- **Publication date:** verified or `Not disclosed`
+- **Channel**
+- **Summary:** 2–3 sentences covering key message and strategic significance
+- **Direct URL**
 
-Sort by verified publication date descending. Distinguish marketing announcements from substantive product updates. If fewer than five are accessible, say so.
+Distinguish thought leadership and marketing claims from product evidence. Sort by verified date descending; note access gaps.
 
-### 3. Reddit sentiment
+### 3. Customer/user sentiment
 
-Search Reddit for each competitor and relevant product names; use multiple searches and inspect original threads and comments. Capture the search terms, search date, timeframe, relevant subreddit(s), and approximate number of **relevant** independent discussions reviewed. Filter out unrelated brand mentions, spam, self-promotion, and duplicates.
+Choose channels relevant to the **industry and audience**. Search Reddit where relevant, plus suitable product review sites, app store reviews, professional communities, forums, developer discussions, or public social posts. User-specified sources take priority. Do not force Reddit when meaningful conversations happen elsewhere.
+
+Capture search terms, sources, search date, lookback, and approximate count of relevant independent discussions/reviews. Exclude unrelated name matches, duplicate threads, spam, paid promotions, and vendor-authored posts masquerading as user feedback.
 
 Report:
+- **Sentiment:** Predominantly positive / Mixed / Predominantly negative / Insufficient evidence
+- **Positive themes:** recurring patterns with direct evidence links
+- **Negative themes:** recurring patterns with direct evidence links
+- **Emerging topics:** novel or growing topics with dates and links
+- **Evidence quality:** distinguish firsthand experience from hearsay, and explain sampling bias
 
-- **Sentiment category:** Predominantly positive / Mixed / Predominantly negative / Insufficient evidence
-- **Positive themes:** recurring themes with direct Reddit thread links
-- **Negative themes:** recurring themes with direct Reddit thread links
-- **Emerging topics:** new or growing discussion topics, with links and dates
+Do not invent numeric sentiment scores or claim representative consensus from a handful of posts. If no meaningful user discourse is available, say `Insufficient evidence`.
 
-Do not manufacture a numeric sentiment score. If data is sparse, say `Insufficient evidence` and avoid claiming community consensus. Separate first-hand customer accounts from hearsay and vendor marketing. Reddit is directional qualitative evidence, not a representative sample.
+### 4. Apparent competitor strategy (150–250 words per competitor by default)
 
-### 4. Overall strategy (150–250 words per competitor)
+Synthesize **product/service focus, target segments, go-to-market and content themes, market positioning, strengths and weaknesses in public discourse, and plausible future directions**. Adapt to the sector: e.g., distribution and merchandising for retail, compliance for financial services, developer experience for software, or clinical workflow for healthcare.
 
-Synthesize observed product focus, AI/integration investment, target customers, blog/content positioning, and strengths or weaknesses in public discourse. Explicitly distinguish **confirmed observations** from **inferences** about future direction. Cite the underlying releases, posts, and Reddit discussions. Do not infer a roadmap from marketing language alone.
+Separate verified facts, third-party opinions, and your own hypotheses. Support material claims with direct links. Label forward-looking inferences and confidence.
 
-### 5. Actionable product management implications
+### 5. Actionable implications
 
-For each competitor add:
-- **Competitive moves to watch** (up to three)
-- **Opportunities / differentiation hypotheses** (up to three), with evidence and confidence
-- **Questions for customer discovery** (up to three)
-- **Change since prior report** when an earlier report exists; preserve prior observations instead of silently replacing history
+For each competitor:
+- **Moves to watch** (up to 3)
+- **Differentiation opportunities or strategic hypotheses** (up to 3), each with evidence and confidence
+- **Customer discovery questions** (up to 3)
+- **Changes since previous report** when available
 
-## Execution workflow
+Close with cross-competitor patterns, risks, opportunities, and an executive summary tailored to the user's stated goals.
 
-1. Open the existing `competitors-status.md` if present; preserve useful history, previous update date, and established structure. If absent, create it using the template below.
-2. Record the current **research date** and a consistent **lookback window** (default 90 days for releases/posts, extend backward only to fill requested counts). Never imply completeness beyond what was actually reviewed.
-3. Visit official sources first; use search to locate relevant updates. Verify each item against its direct source and capture publication dates.
-4. Search Reddit by vendor and product. Cite original Reddit discussions; avoid counting the same cross-post or thread multiple times.
-5. Cross-check recency and duplicates. Prefer explicit dates; never assign today's date to undated content.
-6. Write the report for all four vendors, with consistent sections and source URLs for every factual entry.
-7. Summarize **cross-competitor patterns** and a concise **executive takeaway** with implications for data observability product strategy.
-8. Update `competitors-status.md` in the user's current workspace/repository if write access is available. If not, return the complete Markdown for manual saving; do not claim a file was updated.
-9. Note source-access limitations, insufficient Reddit evidence, and any gaps in the requested counts.
+## Workflow
 
-## Output file: competitors-status.md
+1. Open the existing output file if available. Preserve useful previous findings and update history; otherwise create it from the template.
+2. Establish competitor scope, industry, research date, time horizon, requested counts, and relevant evidence channels.
+3. Verify official developments and content with direct sources; avoid assuming websites are current or comprehensive.
+4. Research independent user discussions in channels suited to the industry; verify relevance and deduplicate.
+5. Compare competitors consistently while acknowledging differences in source coverage.
+6. Write each competitor section and cross-competitor synthesis with links for factual claims.
+7. Update `competitors-status.md` (or requested path) when write access exists. If write access is unavailable, provide the full Markdown without claiming an update.
+8. Explicitly document missing sources, uncertainty, incomplete counts, and research limitations.
 
-Use this structure:
+## Output template
 
 ```markdown
-# Data Observability Competitive Intelligence
+# Competitive Intelligence Report
 **Last researched:** YYYY-MM-DD
+**Industry / market:** ...
 **Coverage window:** ...
-**Competitors:** Bigeye, Monte Carlo, Acceldata, Anomalo
+**Competitors:** ...
 
 ## Executive summary
 ...
 ## Cross-competitor trends
 ...
 
-## Bigeye
-### Latest 10 product features
-| Feature | Description | Date | Evidence type | Source |
+## [Competitor name]
+### Latest product and business developments
+| Development | Description | Date | Status | Source |
 | --- | --- | --- | --- | --- |
-### Latest 5 official posts
+### Latest official content
 | Title | Author | Date | Channel | Summary | URL |
 | --- | --- | --- | --- | --- | --- |
-### Reddit sentiment
+### Customer/user sentiment
 **Assessment:** ...
-**Evidence base:** ...
+**Evidence base and channels:** ...
 **Positive themes:** ...
 **Negative themes:** ...
 **Emerging topics:** ...
-### Apparent strategy (150–250 words)
-...
-### Product management implications
+### Apparent strategy
+[150–250 words; separate observations and hypotheses]
+### Strategic implications
 ...
 ### Gaps and confidence
 ...
 
-## Monte Carlo
-[Repeat same sections]
-
-## Acceldata
-[Repeat same sections]
-
-## Anomalo
-[Repeat same sections]
+[Repeat for every competitor]
 
 ## Sources and methodology
 ...
@@ -132,11 +132,11 @@ Use this structure:
 ...
 ```
 
-## Quality bar
+## Quality requirements
 
-- **No fabricated dates, features, authors, sentiment, or URLs.**
-- Each feature/post has a direct source; each Reddit theme links to supporting threads.
-- Clearly label release vs announcement vs evergreen feature highlight.
-- Do not confuse content recency with product-release recency.
-- No unsupported strategic certainty: mark projections as hypotheses.
-- Be concise but comprehensive; focus on decisions, not promotional copy.
+- **Industry-agnostic:** no default competitors, technologies, markets, or sentiment platforms.
+- **Evidence first:** link to direct sources; do not invent names, dates, authors, quotes, URLs, or sentiment.
+- **Accurate recency:** distinguish released vs announced vs merely highlighted.
+- **Meaningful comparisons:** tailor dimensions to industry and the user's decision.
+- **Cautious inference:** label predictions as hypotheses and state confidence.
+- **Transparent limitations:** sparse coverage is a finding, not permission to fill gaps.
