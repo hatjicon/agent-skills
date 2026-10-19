@@ -9,7 +9,6 @@ A reusable Agent Skill for **competitive research in any industry**. Supply any 
 - Analyzes **customer sentiment** using relevant public sources, including Reddit when appropriate.
 - Synthesizes **positioning, apparent strategy, strengths, weaknesses, and possible future moves**.
 - Identifies **competitive opportunities and customer discovery questions**.
-- Creates or updates a sourced `competitors-status.md` report.
 
 ## Works across industries
 
